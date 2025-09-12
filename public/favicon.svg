@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="32" fill="#0b0d0f"/>
+  <g fill="none" stroke="#caa45d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 176c24-72 136-72 160 0"/>
+    <path d="M80 96c24-24 72-24 96 0"/>
+  </g>
+  <text x="50%" y="205" dominant-baseline="middle" text-anchor="middle" font-family="'Playfair Display', serif" font-size="42" fill="#e8ecef">LM</text>
+</svg>
