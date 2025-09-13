@@ -4,7 +4,7 @@ An elegant, fully functional mock e‑commerce built with Next.js App Router + T
 
 ## 🚀 Live Demo
 
-Deployed on Vercel: [View Live Site](https://your-vercel-url.vercel.app)
+Deployed on Vercel: [View Live Site](https://e-comerce-ropa-deportiva.vercel.app)
 
 ## Requirements
 
