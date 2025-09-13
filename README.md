@@ -2,6 +2,10 @@
 
 An elegant, fully functional mock e‑commerce built with Next.js App Router + TypeScript + Tailwind.
 
+## 🚀 Live Demo
+
+Deployed on Vercel: [View Live Site](https://your-vercel-url.vercel.app)
+
 ## Requirements
 
 - Node.js 18+ and npm
@@ -16,7 +20,17 @@ npm install
 npm run dev
 ```
 
-Then open http://localhost:3000 (or the port shown in your terminal). If you previously had a dev server running and see unexpected errors, stop all dev tasks, delete the `.next` folder, and start again.
+Then open http://localhost:3000 (or the port shown in your terminal).
+
+## Development Notes (Windows/OneDrive Users)
+
+If you see EINVAL readlink errors during development:
+
+1. Stop the dev server
+2. Delete the `build` folder: `Remove-Item -Recurse -Force build`
+3. Restart the dev server: `npm run dev`
+
+This is due to OneDrive sync conflicts with build directories. The project uses a custom build directory in development but standard `.next` for production/Vercel.
 
 ## Scripts
 
